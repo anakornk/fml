@@ -1,0 +1,36 @@
+/* pages/submit/submit.wxss */
+.userinfo-avatar {
+  width: 196rpx;
+  height: 196rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.banner {
+  background-color: #D9D7D9;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40rpx;
+  font-size: 45rpx;
+}
+
+textarea {
+  background: white; /* White background */
+  padding: 15px; /* Internal space */
+  border-radius: 4px; /* Small radius */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* OR subtle border */
+  font-size: 28rpx;
+}
+
+button {
+  margin: 20rpx;
+  background-color: #32AAE1;
+  color: white;
+}

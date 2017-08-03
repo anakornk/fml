@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container" style="padding:0">
+  <view class="banner">FML: your everyday life stories</view>
+  <view class="cards">
+    <view wx:for="{{forms}}" wx:for-item="form" wx:key="{{form.objectId}}" class="card">
+      <!-- {{index}}: {{item.message}} -->
+      <view class="quote">{{form.quote}}</view>
+      <view class="name" >{{form.name}}</view>
+      <view class="likes">{{form.upvote == undefined ? "0" : form.upvote}}<image src="like.png" bindtap="onTap" id="{{form.objectId}}"></image></view> 
+    </view>
+  </view>
+</view>

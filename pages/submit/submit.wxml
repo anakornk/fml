@@ -1,0 +1,14 @@
+<!--pages/submit/submit.wxml-->
+<!-- <text>pages/submit/submit.wxml</text> -->
+<view class="container" style="padding:0">
+  <view class="banner">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="section">
+    <form bindsubmit="bindFormSubmit">
+      <textarea placeholder="Fuck Fuck Fuck" name="textarea"/>
+      <button form-type="submit"> 提交 </button>
+    </form>
+  </view>
+</view>
